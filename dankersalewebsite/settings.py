@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-(cl3+3t!y9i$1n($hdfd%7*=irjr#7rg&bgz@7l6v&u^g#$zb=
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
-    'c23hat-bot-py.herokuapp.com'
-    'dankersalewebsite.herokuapp.com'
+    '127.0.0.1',
+    'c23hat-bot-py.herokuapp.com',
+    'dankersalewebsite.herokuapp.com',
 ]
 
 

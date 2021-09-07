@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1'
     'c23hat-bot-py.herokuapp.com'
-    'ankersalewebsite.herokuapp.com'
+    'dankersalewebsite.herokuapp.com'
 ]
 
 

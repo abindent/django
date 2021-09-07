@@ -1,1 +1,1 @@
-web: gunicorn dankersalewebsite.wsgi 
+web: gunicorn projectname.wsgi 

@@ -61,6 +61,7 @@ Follow the following steps to host your site fro free.
 
                            web: gunicorn <projectname>.wsgi 
 ![Logo](https://i.imgur.com/ggaGGBu.jpg)
+
  #ignore commands.txt that is a file temporary I have created
 
 
@@ -118,6 +119,7 @@ Then go to github and create a new repository and push your code by running the 
 
 13) Now you need connect that github repository to your heroku app. Where your configured django project is available.
 ![Logo](https://i.imgur.com/QTPKLP5.jpg) 
+
 and click on connect after finding the repository
 ![Logo](https://i.imgur.com/Mnu11JG.jpg)                          
                    
@@ -130,4 +132,3 @@ And Now whenever you will make and new changes in your repository then it will a
 
 16) And now your site will be fully live on url: projectname.herokuapp.com.
 ![Logo](https://i.imgur.com/5Jx2Qjk.gif)
-

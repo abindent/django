@@ -36,7 +36,7 @@ This is my project where I have made a heroku app and deployed all the things wi
 
 - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sinchan-maitra-22a303217/)
 - [![reddit](https://img.shields.io/reddit/subreddit-subscribers/Abindent?style=social)](https://reddit.com/r/Abindent)
-
+- [![discord](https://img.shields.io/discord/843750265554206740)](https://discord.com/invite/dFW3gG7gPy)
   
 ## FAQ
 

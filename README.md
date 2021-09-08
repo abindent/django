@@ -62,7 +62,7 @@ Follow the following steps to host your site fro free.
                            web: gunicorn <projectname>.wsgi 
 ![Logo](https://i.imgur.com/ggaGGBu.jpg)
 
- #ignore commands.txt that is a file temporary I have created
+ #ignore commands.txt that is a file temporarily I have created
 
 
 4) Install gunicorn and whitenoise through pipenv as well as pip

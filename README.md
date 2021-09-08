@@ -99,7 +99,9 @@ Then go to github and create a new repository and push your code by running the 
 ![Logo](https://i.imgur.com/qfBhht5.jpg)   
 
 10) Create an app on heroku
+
 ![Logo](https://i.imgur.com/Hm37ITX.jpg)
+
 ![Logo](https://i.imgur.com/HML7ZzB.jpg)
 
 11) Once you’ve selected name for your app then add your app_domain inside your ALLOWED_HOST in settings.py

@@ -10,5 +10,6 @@ def banappeal(request):
   return render(request, 'ban-appeal.html') 
 def stats(request):
       return render(request, 'stats.html') 
-     
+def support(request):
+     return render(request, 'support.html'0
   

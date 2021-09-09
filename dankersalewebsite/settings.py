@@ -27,8 +27,9 @@ SECRET_KEY = 'django-insecure-(cl3+3t!y9i$1n($hdfd%7*=irjr#7rg&bgz@7l6v&u^g#$zb=
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
-    'dankersaleitems.herokuapp.com'
+    '127.0.0.1',
+    'c23hat-bot-py.herokuapp.com',
+    'dankersalewebsite.herokuapp.com',
 ]
 
 
@@ -127,7 +128,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
-
+#DAF
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 django_heroku.settings(locals())
 

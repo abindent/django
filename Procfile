@@ -1,1 +1,1 @@
-worker: gunicorn dankersalewebsite.wsgi 
+web: gunicorn dankersalewebsite.wsgi 

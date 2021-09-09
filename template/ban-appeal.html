@@ -13,7 +13,7 @@
 
 <body>
     <!-- Navbar  -->
-    <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+   <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="https://avatars.githubusercontent.com/u/61065078?v=4" alt="" width="30" height="24"
@@ -41,7 +41,7 @@
                             <li><a class="dropdown-item" href="/ban-appeal" >Ban Appeal</a></li>
                             <li><a class="dropdown-item" href="/stats">Live Danker Sale Item Stats</a></li>
                             <li><a class="dropdown-item"
-                                    href="https://discord.com/channels/843750265554206740/877846892933947412"
+                                    href="/support"
                                     target="_blank">Support</a></li>
                         </ul>
                     </li>
@@ -71,7 +71,7 @@
         </svg>
         <div>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            You have to register an appeal in between 2 weeks of your account gets banned from our server.
+           After you got banned you have to register an appeal between 8 days.
         </div>
     </div>
     <!--Breadcrumb-->
@@ -88,16 +88,16 @@
         <div class=" mb-3">
             <label for="exampleInputText1" class="form-label">Discord Username</label>
             <input type="text" class="form-control" placeholder="example#1234" name="username" id="USERNAME"
-                aria-describedby="emailHelp">
+                aria-describedby="emailHelp" required="">
             <div id="textHelp" class="form-text">We'll never share your discord details with anyone else.</div>
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" name="email" class="form-control" id="EMAIL" placeholder="name@example.com">
+            <input type="email" name="email" class="form-control" id="EMAIL" placeholder="name@example.com" required="">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Write your appeal</label>
-            <textarea name="content" class="form-control" id="BAN APPEAL" rows="8" cols="15"></textarea>
+            <textarea name="content" class="form-control" id="BAN APPEAL" rows="8" cols="15" required=""></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
         <br>
@@ -128,7 +128,7 @@
                         Appeal</a></li>
                 <li class="nav-item"><a href="/stats" target="_blank" class="nav-link px-2 text-muted">Stats</a>
                 </li>
-                <li class="nav-item"><a href="https://discord.com/channels/843750265554206740/877846892933947412"
+                <li class="nav-item"><a href="/support"
                         target="_blank" class="nav-link px-2 text-muted">Support</a></li>
             </ul>
         </footer>

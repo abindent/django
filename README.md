@@ -10,10 +10,12 @@ Javascript, HTML, CSS, Python...
 
   
 # Django + Heroku + Github + BootStrap
-![Logo](https://emojis.slackmojis.com/emojis/images/1483054030/1541/django.png) + ![Logo](https://emojis.slackmojis.com/emojis/images/1483053257/1538/bootstrap.png) + ![Logo](https://emojis.slackmojis.com/emojis/images/1450822151/257/github.png) + ![Logo](https://emojis.slackmojis.com/emojis/images/1465929657/511/heroku.png)
+![Logo](https://emojis.slackmojis.com/emojis/images/1483054030/1541/django.png) + ![Logo](https://emojis.slackmojis.com/emojis/images/1483053257/1538/bootstrap.png) + ![Logo](https://emojis.slackmojis.com/emojis/images/1587484871/8712/github.png) + ![Logo](https://emojis.slackmojis.com/emojis/images/1465929657/511/heroku.png)
 
+## Desciption
 This is my project where I have made a heroku app and deployed all the things with the help of github.
             [Go and Visit Now](https://dankersalewebsite.herokuapp.com)
+            
 ## Author
 
 - [@Think-With-Us](https://www.github.com/think-With-Us)

@@ -9,7 +9,7 @@ I'm a a beginner developer for Python and Javascript...
 Javascript, HTML, CSS, Python...
 
   
-# Django + Heroku + Github + BootStrap
+# :django: Django + Heroku + Github + BootStrap
 
 This is my project where I have made a heroku app and deployed all the things with the help of github.
             [Go and Visit Now](https://dankersalewebsite.herokuapp.com)

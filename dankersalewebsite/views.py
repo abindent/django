@@ -11,5 +11,5 @@ def banappeal(request):
 def stats(request):
       return render(request, 'stats.html') 
 def support(request):
-     return render(request, 'support.html'0
+     return render(request, 'support.html')
   

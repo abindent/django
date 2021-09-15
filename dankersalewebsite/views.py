@@ -12,4 +12,5 @@ def stats(request):
       return render(request, 'stats.html') 
 def support(request):
      return render(request, 'support.html')
-  
+def applications(request):
+     return render(request, 'apply.html')

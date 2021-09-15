@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/61065078?v=4" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Support - Danker Sale Items</title>
+</head>
+
+<body>
+    <!-- Navbar  -->
+   <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://avatars.githubusercontent.com/u/61065078?v=4" alt="" width="30" height="24"
+                    class="d-inline-block align-text-top">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="activated" class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="activated" class="nav-link" onclick="onclick()" aria-current="page" href="/about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Discord
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/ban-appeal" >Ban Appeal</a></li>
+                            <li><a class="dropdown-item" href="/stats">Live Danker Sale Item Stats</a></li>
+                            <li><a class="dropdown-item" href="/applications">Applications</a></li>
+                            <li><a class="dropdown-item"
+                                    href="/support"
+                                    target="_blank">Support</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br><br/><br>
+<!-- Support Modal -->
+ <div class="container">
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="Support" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Application Through Website</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        Application through website gives you an oppurtunity to use support tools during lockdown in the server or in bot outages. 
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Want to Apply? Click Here</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">APPLICATION MENU</h5>
+      </div>
+      <div class="modal-body">
+        <!-- FORM -->
+        <form id="application_form" action="https://formspree.io/f/xbjqwdzk" method="POST">
+          <div class="mb-3">
+            <label for="duser-name" class="col-form-label">Discord Username:</label>
+            <input type="text" class="form-control" name="discord username" id="duser-name" required placeholder="example#1234">
+          </div>
+          <label for="duser-email" class="col-form-label">Select any post:</label>
+          <select class="form-select" id="job-select" aria-label="Default select example" name="selection" required>
+            <option id="soption" selected>What's your role?</option>
+            <option id="Moderator" value="Moderator">Moderator</option>
+            <option id="Admin" value="Admin">Admin</option>
+            <option id="Staff" value="Staff">Staff</option>
+          </select>
+          <div class="mb-3">
+            <label for="Why do you want to become a moderator/admin?" class="col-form-label">Why do you want to become a moderator/admin?</label>
+            <textarea class="form-control" name="Why do you want to become a moderator/admin?" id="q1-text" rows="4" cols="9" placeholder="Explain us" required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="What is the responsibilities of a  moderator/admin?" class="col-form-label">What is the responsibilities of a  moderator/admin?</label>
+            <textarea class="form-control" name="What is the responsibilities of a  moderator/admin?" id="q2-text" rows="4" cols="9" placeholder="Explain us" required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="How long do we have you with us in our server?" class="col-form-label">How long do we have you with us in our server?</label>
+            <textarea class="form-control" name="How long do we have you with us in our server?" id="q3-text" rows="4" cols="9" placeholder="Explain us" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button><br><br/>    
+          <center><div id="status"></div></center><br><br/>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+<a class="position-absolute top-50 start-50 translate-middle btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Click here to apply</a>
+  <!-- FOOTER -->
+    <div class="container position-absolute bottom-0 start-50 translate-middle-x">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">© 2021 Danker Sale Items</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img class="bi me-2" width="40" height="32"
+                    src="https://avatars.githubusercontent.com/u/61065078?v=4"></img>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="/" target="_blank" class="nav-link px-2 text-muted">Home</a>
+                </li>
+                <li class="nav-item"><a href="/about" target="_blank" class="nav-link px-2 text-muted">About</a>
+                </li>
+                <li class="nav-item"><a href="/ban-appeal" target="_blank" class="nav-link px-2 text-muted">Ban
+                        Appeal</a></li>
+                <li class="nav-item"><a href="/stats" target="_blank" class="nav-link px-2 text-muted">Stats</a>
+                </li>
+                <li class="nav-item"><a href="/support"
+                        target="_blank" class="nav-link px-2 text-muted">Support</a></li>
+            </ul>
+        </footer>
+    </div>
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+        <script>
+          var form = document.getElementById("application_form");
+    
+          async function handleSubmit(event) {
+              event.preventDefault();
+              var status = document.getElementById("status");
+              var data = new FormData(event.target);
+              fetch(event.target.action, {
+                  method: form.method,
+                  body: data,
+                  headers: {
+                      'Accept': 'application/json'
+                  }
+              }).then(response => {
+                  status.innerHTML = "Successfully Submitted!";
+                  form.reset()
+              }).catch(error => {
+                  status.innerHTML = "Oops! There was a problem submitting your application."
+              });
+          }
+          form.addEventListener("submit", handleSubmit)
+      </script>    
+</body>
+
+</html>

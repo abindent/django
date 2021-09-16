@@ -215,7 +215,7 @@
     
     <script>
         
-        function typing_animation() {
+   function typing_animation() {
     let text_element = document.querySelector(".text2");
     let text_array = text_element.innerHTML.split("");
     let text_array_slice = text_element.innerHTML.split(" ");
@@ -349,7 +349,7 @@
                 { left: `${left_instance + ((100 / text_len) * (word_len[i] + 1))}%` }
             ], timings_2);
 
-            document.querySelector(".text_cursor").animate([
+            document.querySelector(".text_cursor2").animate([
                 { left: `${left_instance}%` },
                 { left: `${left_instance + ((100 / text_len) * (word_len[i] + 1))}%` }
             ], timings_2);

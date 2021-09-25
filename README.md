@@ -136,28 +136,3 @@ And Now whenever you will make and new changes in your repository then it will a
 16) And now your site will be fully live on url: projectname.herokuapp.com.
 ![Logo](https://i.imgur.com/5Jx2Qjk.gif)
 
-<a href="https://www.patreon.com/bePatron?u=58344564" data-patreon-widget-type="become-patron-button" style="-webkit-box-align: center;
-    align-items: center;
-    backface-visibility: hidden;
-    background-color: rgb(255, 66, 77);
-    border-radius: 9999px;
-    border: 1px solid rgb(255, 66, 77);
-    box-sizing: border-box;
-    cursor: pointer;
-    display: inline-flex;
-    font-weight: 500;
-    height: unset;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding: 0.46875rem 1rem;
-    position: relative;
-    pointer-events: unset;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
-    user-select: none;
-    white-space: unset;
-    width: 100%;
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.875rem !important;">Become a Patron!</a>

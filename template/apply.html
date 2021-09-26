@@ -139,11 +139,11 @@
             <option id="Staff" value="Staff">Staff</option>
           </select>
           <div class="mb-3">
-            <label for="Why do you want to become a moderator/admin?" class="col-form-label">Why do you want to become a moderator/admin?</label>
-            <textarea class="form-control" name="Why do you want to become a moderator/admin?" id="q1-text" rows="4" cols="9" placeholder="Explain us" required></textarea>
+            <label for="Why do you want to become a moderator/admin?" class="col-form-label">Why do you want to become a moderator/admin/staff ?</label>
+            <textarea class="form-control" name="Why do you want to become a moderator/admin/staff ?" id="q1-text" rows="4" cols="9" placeholder="Explain us" required></textarea>
           </div>
           <div class="mb-3">
-            <label for="What is the responsibilities of a  moderator/admin?" class="col-form-label">What is the responsibilities of a  moderator/admin?</label>
+            <label for="What is the responsibilities of a  moderator/admin/staff ?" class="col-form-label">What is the responsibilities of a  moderator/admin/staff ?</label>
             <textarea class="form-control" name="What is the responsibilities of a  moderator/admin?" id="q2-text" rows="4" cols="9" placeholder="Explain us" required></textarea>
           </div>
           <div class="mb-3">
@@ -256,7 +256,7 @@ function typing_animation() {
         }
     ], cursor_timings);
 
-    if (text_array_slice.length == 1) {
+    if (text_array_slice.length == 2) {
         timings.easing = `steps(${Number(word_len[0])}, end)`;
 
         let reveal_animation = document.querySelector(".text_hide2").animate([

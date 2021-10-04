@@ -23,7 +23,6 @@ This is my project where I have made a heroku app and deployed all the things wi
   
 ## License and Main Dependencies
 
-
 [![python](https://img.shields.io/github/pipenv/locked/python-version/Think-With-Us/django)](https://python.org)
 
 - [![Dependencies](https://img.shields.io/static/v1?label=main-dependencies&message=django&color=green)](https://www.djangoproject.com/)

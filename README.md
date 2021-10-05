@@ -94,7 +94,8 @@ Download Git From Here: [Click Here](https://git-scm.com/downloads)
 Then go to github and create a new repository and push your code by running the following commands
 
                     git init
-                    git add README.md
+                    git add README.md (Optional)
+                    git add .
                     git commit -m "first commit"
                     git branch -M main
                     git remote add orgin <github repository link.git>
